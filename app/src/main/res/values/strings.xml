@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hang in</string>
+    <string name="button">Button</string>
+    <string name="email">Email</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="image">image</string>
+    <string name="image2">image2</string>
+    <string name="email2">Email</string>
+    <string name="password">password</string>
+    <string name="forget_your_password">Forget your password</string>
+    <string name="sing_in">SING IN</string>
+    <string name="or">Or</string>
+    <string name="sing_up">Sing up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bookings">bookings</string>
+    <string name="home">home</string>
+    <string name="more">more</string>
+    <string name="nearby">nearby</string>
+    <string name="Working_Place_Name">Working_Place_Name</string>
+</resources>

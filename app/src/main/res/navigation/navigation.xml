@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_Fragment">
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.omaressam.hangin.Home_Fragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" >
+        <action
+            android:id="@+id/action_home_Fragment_to_detals_Fragment"
+            app:destination="@id/detals_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_nearby"
+        android:name="com.omaressam.hangin.fragment_nearby"
+        android:label="fragment_nearby"
+        tools:layout="@layout/fragment_nearby" />
+
+    <fragment
+        android:id="@+id/fragment_bookings"
+        android:name="com.omaressam.hangin.fragment_bookings"
+        android:label="fragment_bookings"
+        tools:layout="@layout/fragment_bookings" />
+    <fragment
+        android:id="@+id/fragment_more"
+        android:name="com.omaressam.hangin.fragment_more"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/detals_Fragment"
+        android:name="com.omaressam.hangin.Detals_Fragment"
+        android:label="fragment_detals_"
+        tools:layout="@layout/fragment_detals" />
+</navigation>
