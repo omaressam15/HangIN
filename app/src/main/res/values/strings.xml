@@ -24,4 +24,6 @@
     <string name="more">more</string>
     <string name="nearby">nearby</string>
     <string name="Working_Place_Name">Working_Place_Name</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_denied">Permission denied!</string>
 </resources>

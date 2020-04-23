@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "801556876066",
+    "firebase_url": "https://hang-in-f2d0e.firebaseio.com",
+    "project_id": "hang-in-f2d0e",
+    "storage_bucket": "hang-in-f2d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801556876066:android:0b2e5ada059179ce37737b",
+        "android_client_info": {
+          "package_name": "com.omaressam.hangin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801556876066-vn9r299qv8t2ua2q2pe7k1s70gj3tq0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhNXFPMKwhNUYq0ht5wzdDheVfyUjbjns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801556876066-vn9r299qv8t2ua2q2pe7k1s70gj3tq0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

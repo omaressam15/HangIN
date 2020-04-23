@@ -2,15 +2,23 @@ package com.omaressam.hangin;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+import android.Manifest;
 import android.app.FragmentTransaction;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.util.Objects;
 
 public class Main3Activity extends AppCompatActivity
 //        implements BottomNavigationView.OnNavigationItemSelectedListener
@@ -31,6 +39,7 @@ public class Main3Activity extends AppCompatActivity
         NavigationUI.setupWithNavController(bottomNavigationView,navController);
 //        bottomNavigationView.setOnNavigationItemSelectedListener(this);
     }
+
 
 //    void openFragment(Fragment fragment) {
 //        FragmentTransaction transaction = getFragmentManager().beginTransaction();
